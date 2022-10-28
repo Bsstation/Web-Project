@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    margin: 0px auto;
+    background-image: url(Images/Background.webp);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    height: 50px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    margin-bottom: 200px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header div.Links{
+    width: 60%;
+}
+
+header div.Login{
+    width: 20%;
+    float: right;
+}
+
+header div.Links a{
+    float: left;
+}
+
+header div.Links a.link:link, a.link:visited{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 15%;
+    text-align: center;
+}
+
+header div.Links a.link:active, a.link:hover{
+    color: black;
+    background-color: white;
+}
+
+header div.Login .loginButton{
+    border:2px solid white;
+    background-color: black;
+    color: white;
+    width: 40%;
+    float: right;
+    height: 45px;
+    margin: auto;
+}
+
+header div.Login .loginButton:hover{
+    border:2px solid black;
+    background-color: white;
+    color: black;
+}
+
+section{
+    min-height: min-content;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    text-align: justify;
+}
+
+section article img{
+    float: right;
+    margin: 0px 20px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    height: 100px;
+
+    padding: 10px 30px;
+}
